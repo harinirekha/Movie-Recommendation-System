@@ -4,6 +4,9 @@ The Movie Recommendation System is designed to suggest movies similar to a userâ
 "Key Features"
 
 Comprehensive Feature Extraction: Integrates multiple movie attributes including genre, keywords, tagline, cast, and director into a single text feature for each movie.
+
 TF-IDF Vectorization: Converts textual features into numerical vectors using Term Frequency-Inverse Document Frequency (TF-IDF) to capture the importance of words in the context of the dataset.
+
 Cosine Similarity Measurement: Calculates the cosine similarity between movies based on their vectorized features to determine how similar they are to each other.
+
 Personalized Recommendations: Allows users to input their favorite movie and provides a list of recommended movies that are similar to the chosen film.
